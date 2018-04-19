@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Carona</string>
+    <string name="title_activity_home">CARONA</string>
+    <string name="title_activity_criar_viagem">CriarViagemActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_procurar_viagem">ProcurarViagemActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_meu_perfil">MeuPerfilActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="title_activity_def">DefActivity</string>
+</resources>

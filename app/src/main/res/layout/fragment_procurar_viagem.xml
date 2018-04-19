@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSelect">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewProcurarViagem"
+        android:layout_width="0dp"
+        android:layout_height="350dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="De"
+                    android:textColor="@color/colorText"
+                    android:textSize="12dp" />
+
+                <EditText
+                    android:id="@+id/txtPartidaProcurar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/colorApp"
+                    android:drawableBottom="@color/colorApp"
+                    android:drawablePadding="1dp"
+                    android:drawableRight="@drawable/ic_lupa"
+                    android:drawableTint="@color/colorApp"
+                    android:ems="10"
+                    android:hint="Local de partida"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorApp"
+                    android:textColorHighlight="@color/colorApp"
+                    android:textColorHint="@color/placeholderColor"
+                    android:textColorLink="@color/colorApp"
+                    android:textCursorDrawable="@color/colorApp"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Para"
+                    android:textColor="@color/colorText"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/txtChegadaProcurar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/colorApp"
+                    android:drawableBottom="@color/colorApp"
+                    android:drawablePadding="1dp"
+                    android:drawableRight="@drawable/ic_lupa"
+                    android:drawableTint="@color/colorApp"
+                    android:ems="10"
+                    android:hint="Local de chegada"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorApp"
+                    android:textColorHighlight="@color/colorApp"
+                    android:textColorHint="@color/placeholderColor"
+                    android:textColorLink="@color/colorApp"
+                    android:textCursorDrawable="@color/colorApp"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Data"
+                    android:textColor="@color/colorText"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/txtDataProcurar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/colorApp"
+                    android:drawableBottom="@color/colorApp"
+                    android:drawablePadding="1dp"
+                    android:drawableRight="@drawable/ic_calendar"
+                    android:drawableTint="@color/colorApp"
+                    android:ems="10"
+                    android:hint="dd/mm/aaaa"
+                    android:inputType="date"
+                    android:textColor="@color/colorApp"
+                    android:textColorHighlight="@color/colorApp"
+                    android:textColorHint="@color/placeholderColor"
+                    android:textColorLink="@color/colorApp"
+                    android:textCursorDrawable="@color/colorApp"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Hora"
+                    android:textColor="@color/colorText"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/txtHoraProcurar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/colorApp"
+                    android:drawableBottom="@color/colorApp"
+                    android:drawablePadding="1dp"
+                    android:drawableRight="@drawable/ic_clock"
+                    android:drawableTint="@color/colorApp"
+                    android:ems="10"
+                    android:hint="hh:mm"
+                    android:inputType="time"
+                    android:textColor="@color/colorApp"
+                    android:textColorHighlight="@color/colorApp"
+                    android:textColorHint="@color/placeholderColor"
+                    android:textColorLink="@color/colorApp"
+                    android:textCursorDrawable="@color/colorApp"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeiculo"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/colorBtn"
+                android:elevation="0dp"
+                android:fontFamily="sans-serif"
+                android:inputType="textCapSentences"
+                android:text="Pesquisar Viagem"
+                android:textColor="@color/colorSelect"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

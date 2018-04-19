@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.carona.ProcurarViagemActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relLayTopBar"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentTop="true">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/appbar_padding_top"
+                android:theme="@style/AppHome.AppBarOverlay">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="CARONA"
+                    android:fontFamily="@font/sara"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorSelect"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+                    app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+                    app:layout_constraintStart_toStartOf="@+id/toolbar3"
+                    app:layout_constraintTop_toTopOf="@+id/toolbar3" />
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@color/colorText"
+                    android:backgroundTint="@color/colorText"
+                    android:foregroundTint="@color/colorSelect"
+                    android:textAlignment="center"
+                    app:tabSelectedTextColor="@color/colorText"
+                    app:tabTextColor="@color/colorSelect">
+
+
+                </android.support.design.widget.TabLayout>
+
+            </android.support.design.widget.AppBarLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayMiddle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/relLayTopBar"
+            android:layout_above="@id/relLayBotBar">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            </android.support.v4.view.ViewPager>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayBotBar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true">
+
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/navigation"
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="false"
+                android:alwaysDrawnWithCache="false"
+                android:animateLayoutChanges="false"
+                android:animationCache="false"
+                android:background="#83bbb6"
+                android:textAlignment="gravity"
+                app:itemIconTint="@animator/bottom_nav_color"
+                app:itemTextColor="@animator/bottom_nav_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:menu="@menu/navigation">
+
+            </android.support.design.widget.BottomNavigationView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+

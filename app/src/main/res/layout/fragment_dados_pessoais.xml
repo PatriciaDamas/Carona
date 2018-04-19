@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSelect">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorSelect"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Nome"
+            android:textColor="@color/colorText"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/txtNomeCondutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/colorApp"
+            android:drawableBottom="@color/colorApp"
+            android:drawablePadding="1dp"
+            android:drawableRight="@drawable/ic_lupa"
+            android:drawableTint="@color/colorApp"
+            android:ems="10"
+            android:hint="Nome de Utilizador"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorApp"
+            android:textColorHighlight="@color/colorApp"
+            android:textColorHint="@color/placeholderColor"
+            android:textColorLink="@color/colorApp"
+            android:textCursorDrawable="@color/colorApp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Estabelecimento de Ensino"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/txtEscola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/colorApp"
+            android:drawableBottom="@color/colorApp"
+            android:drawablePadding="1dp"
+            android:drawableRight="@drawable/ic_lupa"
+            android:drawableTint="@color/colorApp"
+            android:ems="10"
+            android:hint="Nome da Faculdade"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorApp"
+            android:textColorHighlight="@color/colorApp"
+            android:textColorHint="@color/placeholderColor"
+            android:textColorLink="@color/colorApp"
+            android:textCursorDrawable="@color/colorApp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Curso"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/txtCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/colorApp"
+            android:ems="10"
+            android:hint="Nome do Curso"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorApp"
+            android:textColorHighlight="@color/colorApp"
+            android:textColorHint="@color/placeholderColor"
+            android:textColorLink="@color/colorApp"
+            android:textCursorDrawable="@color/colorApp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Contato Telefónico"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/txtContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/colorApp"
+            android:ems="10"
+            android:hint="+351 9** *** ***"
+            android:inputType="time"
+            android:textColor="@color/colorApp"
+            android:textColorHighlight="@color/colorApp"
+            android:textColorHint="@color/placeholderColor"
+            android:textColorLink="@color/colorApp"
+            android:textCursorDrawable="@color/colorApp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="IBAN"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/txtNib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/colorApp"
+            android:ems="10"
+            android:hint="PT50 00000 00000 00000 0000 0"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorApp"
+            android:textColorHighlight="@color/colorApp"
+            android:textColorHint="@color/placeholderColor"
+            android:textColorLink="@color/colorApp"
+            android:textCursorDrawable="@color/colorApp"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnAlterarDadosPessoais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBtn"
+
+            android:fontFamily="sans-serif"
+            android:inputType="textCapSentences"
+            android:onClick="clickAlterarDadosPessoais"
+            android:text="Gravar Dados"
+            android:textColor="@color/colorSelect"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

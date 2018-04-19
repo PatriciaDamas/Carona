@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSelect">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorSelect"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+
+            android:text="Marca"
+            android:textColor="@color/colorText"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/txtMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/colorApp"
+            android:drawableBottom="@color/colorApp"
+            android:drawablePadding="1dp"
+            android:drawableRight="@drawable/ic_lupa"
+            android:drawableTint="@color/colorApp"
+            android:ems="10"
+            android:hint="Marca do Veículo"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorApp"
+            android:textColorHighlight="@color/colorApp"
+            android:textColorHint="@color/placeholderColor"
+            android:textColorLink="@color/colorApp"
+            android:textCursorDrawable="@color/colorApp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Modelo"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/txtModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/colorApp"
+            android:drawableBottom="@color/colorApp"
+            android:drawablePadding="1dp"
+            android:drawableRight="@drawable/ic_lupa"
+            android:drawableTint="@color/colorApp"
+            android:ems="10"
+            android:hint="Modelo do Veículo"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorApp"
+            android:textColorHighlight="@color/colorApp"
+            android:textColorHint="@color/placeholderColor"
+            android:textColorLink="@color/colorApp"
+            android:textCursorDrawable="@color/colorApp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Cor"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/txtCor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/colorApp"
+            android:ems="10"
+            android:hint="Cor do Veículo"
+            android:inputType="text"
+            android:textColor="@color/colorApp"
+            android:textColorHighlight="@color/colorApp"
+            android:textColorHint="@color/placeholderColor"
+            android:textColorLink="@color/colorApp"
+            android:textCursorDrawable="@color/colorApp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Matrícula"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/txtMatricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/colorApp"
+            android:ems="10"
+            android:hint="00-AA-00"
+            android:inputType="text"
+            android:textColor="@color/colorApp"
+            android:textColorHighlight="@color/colorApp"
+            android:textColorHint="@color/placeholderColor"
+            android:textColorLink="@color/colorApp"
+            android:textCursorDrawable="@color/colorApp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Lugares"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <SeekBar
+            android:id="@+id/seekBarVeiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@animator/seekbar"
+            android:max="8"
+            android:min="1"
+            android:secondaryProgressTint="@animator/seekbar"
+            android:thumbTint="@animator/seekbar" />
+
+        <TextView
+            android:id="@+id/txtVeiculoLugares"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/colorText"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnVeiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorBtn"
+            android:elevation="0dp"
+            android:fontFamily="sans-serif"
+            android:inputType="textCapSentences"
+            android:onClick="clickAlterarDadosVeiculo"
+            android:text="Gravar Dados"
+            android:textColor="@color/colorSelect"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/menuicon"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/procurar"
+        android:icon="@drawable/lupaicon"
+        android:title="Pesquisar" />
+
+    <item
+        android:id="@+id/adicionarviagem"
+        android:icon="@drawable/ic_plus"
+        android:title="Adicionar" />
+
+    <item
+        android:id="@+id/perfil"
+        android:icon="@drawable/usericon"
+        android:title="Perfil" />
+    <item
+        android:id="@+id/definicoes"
+        android:icon="@drawable/deficon"
+        android:title="Definições" />
+
+
+
+</menu>

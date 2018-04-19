@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1081604715284",
+    "firebase_url": "https://carona-esmad.firebaseio.com",
+    "project_id": "carona-esmad",
+    "storage_bucket": "carona-esmad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081604715284:android:317cc4a69056617d",
+        "android_client_info": {
+          "package_name": "com.carona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081604715284-0h7l79aa9a8mdoiob20tqhqv4cb7qtqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carona",
+            "certificate_hash": "7fcf3f9321443108a367fc481a343a7724281d84"
+          }
+        },
+        {
+          "client_id": "1081604715284-lvvp1ko0cok2elhmn4v18gt27tab3tc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY6QmgflDnbXX8rImLd4VyExLm4ZaL4bk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081604715284-lvvp1ko0cok2elhmn4v18gt27tab3tc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
