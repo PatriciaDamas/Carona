@@ -1,5 +1,3 @@
-<p>Carona</p>
-
 <p align="center">
   <img src="https://github.com/PatriciaDamas/Carona/blob/master/app/src/main/res/drawable/logo.png" width="256px">
 
